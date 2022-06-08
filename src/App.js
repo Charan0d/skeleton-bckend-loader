@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import ExhibitorDashboard from './ex-dashboard';
+import AddTeam from './AddTeam';
+import ExhibitorTeam from './ExibitorTeam';
+import PeopleDashboard from './PeopleDash';
+import SessionDashboard from './SessionDash';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+ex-databaodrd
+<ExhibitorDashboard/>
+addteam
+<AddTeam/>
+ex-team
+<ExhibitorTeam/>
+peopledash
+<PeopleDashboard/>
+sessiondash
+<SessionDashboard/>
 
+     </div>
+    ) }
 export default App;
